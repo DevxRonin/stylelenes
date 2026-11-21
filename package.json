@@ -1,0 +1,11 @@
+{
+  "name": "stylelens-workspace",
+  "version": "1.0.0",
+  "description": "StyleLens Premium Eyewear E-commerce Monorepo",
+  "scripts": {
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed"
+  }
+}
